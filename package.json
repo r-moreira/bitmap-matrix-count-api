@@ -1,0 +1,35 @@
+{
+  "name": "api-bitmap-count",
+  "version": "1.0.0",
+  "description": "An API that receives a vector An ∈ {0, 1, 2, ..., 15} and returns the number of times each 'An' has found in a bitmap matrix",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon srcs/server.js",
+    "start": "node srcs/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-moreira/api-bitmap-count.git"
+  },
+  "keywords": [
+    "api",
+    "bitmap",
+    "matrix"
+  ],
+  "author": "Rodrigo Moreira Avila",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/r-moreira/api-bitmap-count/issues"
+  },
+  "homepage": "https://github.com/r-moreira/api-bitmap-count#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.6",
+    "supertest": "^6.0.1"
+  }
+}
